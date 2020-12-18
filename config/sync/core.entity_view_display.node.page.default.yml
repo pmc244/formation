@@ -1,0 +1,39 @@
+uuid: 156f2425-6508-47c0-b654-9ed0be1620a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - node.type.page
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_twocol
+      library: ive/foursquare
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      top_left:
+        - body
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: top_left
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true

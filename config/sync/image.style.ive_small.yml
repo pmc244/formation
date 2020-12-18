@@ -1,0 +1,22 @@
+uuid: 82ae9e1a-a5c2-4ae1-85a8-2b2bb7c24295
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: i-5h_Hra-_v_pZ-nQxRS_TpbTbsTZYodeBvaGPnOvEE
+name: ive_small
+label: 'Ive small'
+effects:
+  d82d6a3e-2f34-4413-9dbf-263a9aaeec75:
+    uuid: d82d6a3e-2f34-4413-9dbf-263a9aaeec75
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: null
+      upscale: false
+  69652825-ed2f-44da-b95b-34fed7f59e06:
+    uuid: 69652825-ed2f-44da-b95b-34fed7f59e06
+    id: image_desaturate
+    weight: 2
+    data: {  }

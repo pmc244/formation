@@ -1,0 +1,26 @@
+uuid: 587b1ea1-67be-481d-b607-56ca2bd1689f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.three_tab.field_text
+    - field.field.node.three_tab.field_texte_2
+    - field.field.node.three_tab.field_texte_3
+    - node.type.three_tab
+  module:
+    - user
+id: node.three_tab.teaser
+targetEntityType: node
+bundle: three_tab
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_text: true
+  field_texte_2: true
+  field_texte_3: true

@@ -1,0 +1,33 @@
+<div id="tabs">
+  <ul>
+    {% if content.fisrt_tab %}
+      <li><a href="#tabs-1">{{ content.fisrt_tab|first|field_label }}</a></li>
+    {% endif %}
+
+    {% if content.second_tab %}
+      <li><a href="#tabs-2">{{ content.second_tab|first|field_label }}</a></li>
+    {% endif %}
+
+    {% if content.third_tab %}
+      <li><a href="#tabs-3">{{ content.third_tab|first|field_label }}</a></li>
+    {% endif %}
+  </ul>
+
+  {% if content.fisrt_tab %}
+    <div id="tabs-1">
+      <p>{{ content.fisrt_tab }}</p>
+    </div>
+  {% endif %}
+
+  {% if content.second_tab %}
+    <div id="tabs-2">
+      <p>{{ content.second_tab }}</p>
+    </div>
+  {% endif %}
+
+  {% if content.third_tab %}
+    <div id="tabs-3">
+      <p>{{ content.third_tab }}</p>
+    </div>
+  {% endif %}
+</div>

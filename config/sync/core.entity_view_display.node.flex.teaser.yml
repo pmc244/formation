@@ -1,0 +1,34 @@
+uuid: ac05c71a-3466-4c86-a09e-a21e583bad30
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flex.body
+    - field.field.node.flex.field_image_et_texte
+    - field.field.node.flex.field_titr
+    - node.type.flex
+  module:
+    - text
+    - user
+id: node.flex.teaser
+targetEntityType: node
+bundle: flex
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image_et_texte: true
+  field_titr: true

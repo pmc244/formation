@@ -1,0 +1,34 @@
+uuid: 9b0ea06d-ca9f-4170-a2d5-9dcfa5a5e102
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titr
+    - node.type.flex
+    - paragraphs.paragraphs_type.titre_et_texte
+  module:
+    - entity_reference_revisions
+id: node.flex.field_titr
+field_name: field_titr
+entity_type: node
+bundle: flex
+label: 'Titre et texte'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      titre_et_texte: titre_et_texte
+    target_bundles_drag_drop:
+      image_et_texte:
+        weight: 3
+        enabled: false
+      titre_et_texte:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

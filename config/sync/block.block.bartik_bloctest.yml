@@ -1,0 +1,25 @@
+uuid: 716f9dab-2aee-4c19-8825-04e9fd69e22d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: bartik_bloctest
+theme: bartik
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+settings:
+  id: 'block_content:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+  label: Drupal
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

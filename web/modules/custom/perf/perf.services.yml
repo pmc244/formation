@@ -1,0 +1,4 @@
+services:
+  perf.lazybuilders:
+    class: Drupal\perf\Services\LazyBuilderService
+

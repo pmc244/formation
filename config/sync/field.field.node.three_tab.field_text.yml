@@ -1,0 +1,21 @@
+uuid: 1a207ef8-c3d0-42aa-a4fe-7d7fd67f44dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text
+    - node.type.three_tab
+  module:
+    - text
+id: node.three_tab.field_text
+field_name: field_text
+entity_type: node
+bundle: three_tab
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,32 @@
+uuid: 9a9fd944-0e0f-49bf-b71e-1024ee0431b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.titre_et_texte.field_text
+    - field.field.paragraph.titre_et_texte.field_zone_de_texte
+    - paragraphs.paragraphs_type.titre_et_texte
+id: paragraph.titre_et_texte.default
+targetEntityType: paragraph
+bundle: titre_et_texte
+mode: default
+content:
+  field_text:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_zone_de_texte:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,49 @@
+uuid: 7db77c3f-49b4-4da9-867b-9b5a5a0eeda0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.flex.body
+    - field.field.node.flex.field_image_et_texte
+    - field.field.node.flex.field_titr
+    - node.type.flex
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.flex.default
+targetEntityType: node
+bundle: flex
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_et_texte:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_titr:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

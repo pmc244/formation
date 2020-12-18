@@ -1,0 +1,25 @@
+uuid: 5748f498-5c45-4a68-9b47-0d289648a20e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+  module:
+    - block_content
+  theme:
+    - ive
+id: ive_bloctest
+theme: ive
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+settings:
+  id: 'block_content:dbcb615d-4e2b-42f7-83b0-54e9f88b6a7f'
+  label: Drupal
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

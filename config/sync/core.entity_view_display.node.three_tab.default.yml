@@ -1,0 +1,57 @@
+uuid: 275148c1-a54f-45ff-a0b2-435d675ad2cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.three_tab.field_text
+    - field.field.node.three_tab.field_texte_2
+    - field.field.node.three_tab.field_texte_3
+    - node.type.three_tab
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_threetab
+      library: ive/threetab
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      fisrt_tab:
+        - field_text
+      second_tab:
+        - field_texte_2
+      third_tab:
+        - field_texte_3
+id: node.three_tab.default
+targetEntityType: node
+bundle: three_tab
+mode: default
+content:
+  field_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: fisrt_tab
+  field_texte_2:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: second_tab
+  field_texte_3:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: third_tab
+hidden:
+  links: true

@@ -1,0 +1,10 @@
+uuid: 14c471d4-e71d-4766-84e4-58cc61d9ad51
+langcode: en
+status: true
+dependencies: {  }
+id: titre_et_texte
+label: 'Titre et texte'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

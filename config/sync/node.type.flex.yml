@@ -1,0 +1,17 @@
+uuid: 1016d687-48a5-495a-b6fc-47a51fd55001
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Flex
+type: flex
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

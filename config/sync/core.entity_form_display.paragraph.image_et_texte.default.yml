@@ -1,0 +1,35 @@
+uuid: 0ebe35ab-fdfe-4469-b0db-a27a1963e7a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_et_texte.field_image
+    - field.field.paragraph.image_et_texte.field_texte
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.image_et_texte
+  module:
+    - image
+id: paragraph.image_et_texte.default
+targetEntityType: paragraph
+bundle: image_et_texte
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texte:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

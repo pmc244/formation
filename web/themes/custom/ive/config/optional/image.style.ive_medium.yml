@@ -1,0 +1,15 @@
+uuid: 995dad80-bf8b-4c44-87a3-0fecdf1a0e9b
+langcode: en
+status: true
+dependencies: {  }
+name: ive_medium
+label: 'Ive medium'
+effects:
+  7ca9bb70-0b21-485e-b68d-fa5de049ff6e:
+    uuid: 7ca9bb70-0b21-485e-b68d-fa5de049ff6e
+    id: image_scale
+    weight: 1
+    data:
+      width: 280
+      height: null
+      upscale: false

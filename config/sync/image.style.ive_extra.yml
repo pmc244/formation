@@ -1,0 +1,17 @@
+uuid: fd6afeb5-b6eb-4a43-8951-2e410906a0f1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: l3xftUKmxfO-cc2QVNLiYC5DcM4HHZcnqpPhVhM-3U0
+name: ive_extra
+label: 'Ive extra'
+effects:
+  67b3cdb8-2aad-46b2-b52c-13f54cc26b0c:
+    uuid: 67b3cdb8-2aad-46b2-b52c-13f54cc26b0c
+    id: image_scale
+    weight: 1
+    data:
+      width: 500
+      height: null
+      upscale: false

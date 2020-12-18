@@ -1,0 +1,31 @@
+layout_twocol:
+  label: 'Four square'
+  path: layouts/twocol
+  template: twocol
+  library: ive/foursquare
+  category: 'Columns: 2'
+  default_region: fisrt
+  icon: four-square.png
+  regions:
+    top_left:
+      label: Top Left
+    top_right:
+      label: Top Right
+    bottom_left:
+      label: Bottom Left
+    bottom_right:
+      label: Bottom Right
+layout_threetab:
+  label: 'Three Tabs'
+  path: layouts/threetab
+  template: threetab
+  library: ive/threetab
+  category: 'Tabs:3'
+  default_region: fisrt_tab
+  regions:
+    fisrt_tab:
+      label: Tab 1
+    second_tab:
+      label: Tab 2
+    third_tab:
+      label: Tab 3

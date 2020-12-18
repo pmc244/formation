@@ -1,0 +1,22 @@
+uuid: 405921d7-f99a-4183-9be2-27a49f8b6b44
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.three_tab
+id: node.three_tab.promote
+field_name: promote
+entity_type: node
+bundle: three_tab
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
