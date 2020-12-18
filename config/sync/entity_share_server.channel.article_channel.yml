@@ -1,0 +1,15 @@
+uuid: 098340b8-2160-4d09-a794-e80149cb6d61
+langcode: en
+status: true
+dependencies: {  }
+id: article_channel
+label: 'Article channel'
+channel_entity_type: node
+channel_bundle: article
+channel_langcode: und
+channel_filters: null
+channel_groups: null
+channel_sorts: {  }
+channel_searches: null
+authorized_users:
+  20dbffb6-7056-4849-be39-78f77c74de83: 20dbffb6-7056-4849-be39-78f77c74de83

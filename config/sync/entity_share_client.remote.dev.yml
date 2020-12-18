@@ -1,0 +1,13 @@
+uuid: 9d8ba4db-55fd-48ee-bbf7-f759e9f149e1
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+url: 'http://trainedpeople.local'
+auth:
+  pid: basic_auth
+  uuid: dc9b1759-199d-4992-bf7c-316717fdaadb
+  data:
+    credential_provider: entity_share
+    storage_key: dc9b1759-199d-4992-bf7c-316717fdaadb
